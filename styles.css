@@ -8,7 +8,7 @@ body{
     line-height: 1.6;
 }
 header{
-    background-color: #e2893c;
+    background-color: #e7c19f;
     color:aqua;
     text-align:center;
     padding: 30px 20px;
@@ -19,16 +19,16 @@ Nav{
     padding: 12px;
 }
 Nav a{
-    color: #acfcd9;
+    color: #42e09c;
     text-decoration: red;
     margin: 0 15px;
     font-weight: bold;
 }
 nav a hover{
-    color: #f1c40f;
+    color: #dfcb7c;
 }
 section{
-    background-color: #E09A71;
+    background-color: #c9a997;
     margin: 20px auto;
     padding: 20px;
     width: 80%;
@@ -39,9 +39,172 @@ img{
     margin-top: 10px;
 }
 footer{
-    background-color: #e2893c;
-    color: bisque;
+    background-color: #e9bd98;
+    color: rgb(187, 151, 107);
     text-align: center;
     padding: 10px;
     margin-top: 20px;
 }
+button {
+    padding:10 px 20 px;
+    font-size: 16px ;
+    background-color: #160650;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.15, background-color 0.35;
+
+}
+button:active {
+    transform: scale(0.95);
+    background-color: #64070c;
+}
+
+#mensaje{
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition:all 0.5s ease;
+    font-weight:bold;
+    color: #151518;
+    margin-top: 10px;
+}
+
+.whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            background-color: #20b358;
+        }
+
+        /* Ícono de WhatsApp */
+        .whatsapp-icon {
+            width: 35px;
+            height: 35px;
+        }
+
+        /* Botón flotante de Facebook */
+.facebook-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 100px; /* se coloca a la izquierda del de WhatsApp */
+    background-color: #1877f2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 101;
+    transition: transform 0.2s ease-in-out;
+}
+
+.facebook-float:hover {
+    transform: scale(1.1);
+}
+
+/* Ícono de Facebook */
+.facebook-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
+#contacto {
+  padding: 20px;
+  background-color: #c5a385;
+}
+
+.formulario {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #e69393;
+  border-radius: 5px;
+}
+
+.formulario button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #2e00fd; /* estilo tipo WhatsApp */
+  color:  #e6a068;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #2b8650;
+}
+
+
+.oscuro{
+    background-color:#121212;
+    color:white;
+}
+
+.oscuro header{
+    background:#1f1f1f;
+}
+
+.oscuro nav{
+    background:#000;
+}
+
+.oscuro section{
+    background:#1e1e1e;
+    color:white;
+}
+
+.oscuro footer{
+    background:#000;
+}
+
+.oscuro a{
+    color:#4fc3f7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
